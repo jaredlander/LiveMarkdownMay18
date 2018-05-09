@@ -1,8 +1,18 @@
 ---
-title: Markdown Primer
-author: Jared P. Lander
-date: May 9, 2018
-output: html_document
+title: "Markdown Primer"
+author: "Jared P. Lander"
+date: "May 9, 2018"
+output:
+    html_document:
+        number_sections: yes
+        toc: yes
+        toc_float:
+          collapsed: no
+          smooth_scroll: yes
+    word_document:
+        toc: yes
+    pdf_document:
+        toc: yes
 ---
 
 ```{r settings}

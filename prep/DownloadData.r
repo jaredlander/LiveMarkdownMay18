@@ -29,7 +29,7 @@ download.file(
 download.file(
 	'https://query.data.world/s/IIwWxfh9cTydB8h_OueRyA7yxvZ6bf',
 	destfile=file.path(dataDir, 'flightPaths.csv'),
-	mode='Flights')
+	mode='w')
 
 # reaction.txt
 download.file(
@@ -47,7 +47,7 @@ download.file(
 download.file(
 	'https://query.data.world/s/vzZ_zJzCqXY_yExaJIt79XkJAqUbe-',
 	destfile=file.path(dataDir, 'SocialComments.xml'),
-	mode='XML')
+	mode='w')
 
 # TomatoFirst.csv
 download.file(

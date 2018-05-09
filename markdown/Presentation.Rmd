@@ -1,0 +1,36 @@
+---
+title: Awesome Slideshow
+author: Jared P. Lander
+output:
+    ioslides_presentation:
+        widescreen: yes
+---
+
+## My First Slide
+
+Some text to go on the slide, even though you really should use very little text, and mostly images, when giving a talk.
+
+<div class='notes'>
+There shouldn't be so much text
+</div>
+
+## This is Awesome
+
+Woooooo!!!
+
+<div class='notes'>
+This is the greatest way to make a slideshow
+</div>
+
+## Plot
+
+```{r diamonds-plot,fig.align='center',message=FALSE}
+library(ggplot2)
+ggplot(diamonds, aes(x=price)) + geom_histogram()
+```
+
+<div class='notes'>
+- histogram
+- diamond prices
+- we should really set the number of bins
+</div>

@@ -69,3 +69,37 @@ ___Emphasized and strong text___
 a. Mushrooms
 a. Sausage
 a. Garlic
+
+# Links
+
+[My Website](http://www.jaredlander.com)
+
+# R Time!!!!!!!!!!!
+
+```{r}
+1 + 1
+```
+
+```{r}
+# this is a comment inside of R
+x <- 3
+x
+```
+
+```{r}
+x*2
+```
+
+Let's give our chunks names.
+
+```{r simple-code-ex}
+x*3 + 7
+```
+
+Let's show the results of a chunk without seeing the code.
+
+```{r another-example,echo=FALSE}
+5*x + 4
+```
+
+

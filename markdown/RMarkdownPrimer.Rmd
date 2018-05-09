@@ -1,0 +1,71 @@
+---
+title: Markdown Primer
+author: Jared P. Lander
+date: May 9, 2018
+output: html_document
+---
+
+# My First Section
+
+We started a new section with a hashtag and this is the first paragraph in that section. Notice that the text will automatically wrap to the next line in the editor, but it still has the same line number. All text within the same line number is considered a single paragraph. Be aware that markdown is highly space sensitive.
+
+Leaving a blank line starts a new paragraph. Remember, markdown is highly case sensitive. Adding a third sentence to fit in with antiquated rules of writing, even though JD Salinger would disagree.
+If you don't leave a blank line, this sentence is still part of the same paragraph.
+
+# New Section
+
+You start a new section by leaving a blank line and starting the next line with a hashtag. No need to close the previous section, simply start a new section.
+
+# Subsections
+
+Creating subsections is just as easy, simply use two hashtags.
+
+## First Subsection
+
+We started a subsection within a section by using two hashtags. No need to do anything to the section itself.
+
+## Another Subsection
+
+Just like with sections, to start a new subsection simply start a line with two hashtags. No need to close the previous subsection.
+
+# Back to Sections
+
+We return to a level 1 section by starting a new one with a single hashtag. Again, no need to close previous sections or subsections.
+
+# Formatting Text
+
+_Emphasized Text_
+
+__Strong Text__
+
+___Emphasized and strong text___
+
+`anything in backticks looks like computer code`
+
+# Lists
+
+## Unordered Lists
+
+- Apple
+    - Honeycrisp
+    - Pinova
+    - Granny Smith
+    - Cortlandt
+- Banana
+- Orange
+- Kiwi
+- Durian
+- Watermelon
+
+## Ordered Lists
+
+1. New York
+1. New Jersey
+1. Naples
+1. Detroit
+1. Philadelphia
+1. Rome
+
+a. Mushrooms
+a. Sausage
+a. Garlic
